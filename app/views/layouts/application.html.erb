@@ -11,6 +11,10 @@
   </head>
 
   <body>
+    <nav class="nav-bar">
+      <%= link_to "BetterThanAirbnb", flats_path, class: "logo" %>
+      <%= link_to "Add Flat", new_flat_path, class: "btn btn-blue-border" %>
+    </nav>
     <%= yield %>
   </body>
 </html>

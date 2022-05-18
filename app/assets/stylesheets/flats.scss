@@ -1,0 +1,31 @@
+// Place all the styles related to the flats controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  align-items: flex-start;
+  padding: 100px;
+}
+
+.details-tile {
+  background-color: #F8F9FA;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+  width: 100%;
+  margin: 20px;
+  padding: 10px;
+}
+
+.btn-blue-border {
+  text-decoration: none;
+  border: 1px solid #6FA8FE;
+  color: #6FA8FE;
+  border-radius: 4px;
+  padding: 8px
+}
+
+.logo, .btn-blue-border {
+  margin: 16px
+}
